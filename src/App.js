@@ -1,9 +1,8 @@
-import UI from './components/Calculator.js';
+import UI from './components/Calculator';
 
-const App = () => {
-  return (
-    <UI />
-  );
-}
+/*eslint-disable */
+const App = () => <UI />
+ 
+
 
 export default App;
