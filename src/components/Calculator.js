@@ -9,11 +9,13 @@ const UI = () => {
     next: null,
   });
 
-  const onClickHandler = (event) => {
-    const Result = calculate(state, event.target.innerHTML);
-    setStat(Result);
+  const onClickHandler = (e) => {
+    const result = calculate(state, e.target.innerHTML);
+    setStat(result);
   };
+
   const { total, operation, next } = state;
+
   return (
     <div className="calculator">
       <div className="calc">
@@ -25,69 +27,69 @@ const UI = () => {
           </h2>
         </div>
         <div className="row">
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             AC
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             +/-
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             %
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper btn-color">
-            +
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper btn-color">
+            ÷
           </button>
         </div>
         <div className="row">
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             7
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             8
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             9
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper btn-color">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper btn-color">
             x
           </button>
         </div>
         <div className="row">
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             4
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             5
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             6
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper btn-color">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper btn-color">
             -
           </button>
         </div>
         <div className="row">
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             1
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             2
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             3
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper btn-color">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper btn-color">
             +
           </button>
         </div>
         <div className="row">
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper zero">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper zero">
             0
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper">
             .
           </button>
-          <button type="button" onClick={(event) => { onClickHandler(event); }} className="btn-wrapper btn-color">
+          <button type="button" onClick={(e) => { onClickHandler(e); }} className="btn-wrapper btn-color">
             =
           </button>
         </div>
