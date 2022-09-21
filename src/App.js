@@ -7,7 +7,7 @@ import Home from './components/home';
 import Quote from './components/quote';
 
 const App = () => (
-  <React.Fragment>
+  <>
     <Router>
       <Header />
       <Routes>
@@ -18,7 +18,7 @@ const App = () => (
     </Router>
 
     <Footer />
-  </React.Fragment>
+  </>
 );
 
 export default App;

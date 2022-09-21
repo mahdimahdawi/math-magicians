@@ -1,8 +1,8 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <React.Fragment>
+  <>
     <div className="header">
       <div>
         <h1 className="logo">Math Magicians</h1>
@@ -21,7 +21,7 @@ const Header = () => (
         </NavLink>
       </div>
     </div>
-  </React.Fragment>
+  </>
 );
 
 export default Header;
