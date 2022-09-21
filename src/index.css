@@ -16,7 +16,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 200px;
+  margin-top: 130px;
+  margin-left: 500px;
 }
 
 .calc {
@@ -59,4 +60,80 @@ body {
   padding: 10px;
   color: rgb(0, 0, 0);
   height: 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 50px;
+  color: white;
+}
+
+.logo {
+  margin-top: 20px;
+  margin-left: 40px;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu {
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+.menu-link {
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.footer {
+  position: fixed;
+  top: 93%;
+  background-color: #969492;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  height: 50px;
+  border: 2px solid white;
+}
+
+.footer-text {
+  margin-top: 10px;
+}
+
+.home-page {
+  margin: 100px 200px;
+  color: white;
+  width: 70%;
+}
+
+.text {
+  padding: 20px;
+}
+
+.some-math {
+  position: fixed;
+  top: 27%;
+  left: 15%;
+  color: white;
+  letter-spacing: 10px;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.quote-text {
+  position: fixed;
+  top: 40%;
+  left: 18%;
+  color: white;
+  width: 70%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.william-quote {
+  letter-spacing: 5px;
+  line-height: 50px;
 }
