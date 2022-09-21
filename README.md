@@ -1,4 +1,11 @@
-# Getting Started with Create React App
+# Math Magicias Project
+
+## Build with
+- Major languages: React Js Library
+- Technologies used: Linters, Git and Github, webpack and jest
+
+## Live Demo
+- Comming Soon...
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -62,8 +69,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/m
 This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+👤 **Mahdi Mahdawi**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- GitHub: [@mahdimahdawi](https://github.com/mahdimahdawi/math-magicians)
+- Twitter: [@Mahdimahdawo](https://mobile.twitter.com/mahdimahdawi16)
+- LinkedIn: [Mahdi Mahdawi](https://www.linkedin.com/in/mahdi-mahdawi-434296189)
+
 
 ### `npm run build` fails to minify
 
