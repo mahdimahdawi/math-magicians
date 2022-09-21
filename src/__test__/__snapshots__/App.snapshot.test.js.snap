@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Jest snapshot to test components Matches DOM Snapshot 1`] = `
+Array [
+  <div
+    className="header"
+  >
+    <div>
+      <h1
+        className="logo"
+      >
+        Math Magicians
+      </h1>
+    </div>
+    <div
+      className="menu"
+    >
+      <a
+        aria-current="page"
+        className="menu-link active"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+      <span
+        className="menu-link"
+      >
+        |
+      </span>
+      <a
+        className="menu-link"
+        href="/calculator"
+        onClick={[Function]}
+      >
+        Calculator
+      </a>
+      <span
+        className="menu-link"
+      >
+        |
+      </span>
+      <a
+        className="menu-link"
+        href="/quote"
+        onClick={[Function]}
+      >
+        Quote
+      </a>
+    </div>
+  </div>,
+  <div
+    className="home-page"
+  >
+    <h2>
+      Welcome To Our Page !
+    </h2>
+    <p
+      className="text"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+    <p
+      className="text"
+    >
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+  </div>,
+  <div
+    className="footer"
+  >
+    <h3
+      className="footer-text"
+    >
+      All Right Reserved ©
+    </h3>
+  </div>,
+]
+`;

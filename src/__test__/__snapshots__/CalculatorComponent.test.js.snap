@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`testing Calculator Component testing if Calculator Component rendered 1`] = `Promise {}`;

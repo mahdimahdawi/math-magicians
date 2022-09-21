@@ -1,6 +1,6 @@
 import calculate from '../logic/calculate';
 
-describe('Test for Caculate', () => {
+describe('Test for Calculate', () => {
   test('Check for the sum calculation', () => {
     const obj = {
       total: 10,
@@ -14,7 +14,7 @@ describe('Test for Caculate', () => {
       total: '15',
       });
   });
-  test('Check fot Subraction', () => {
+  test('Check for Subtractions', () => {
     const obj = {
       total: 10,
       next: 5,
@@ -53,7 +53,7 @@ describe('Test for Caculate', () => {
       total: '2',
     });
   });
-  test('Check for modulas', () => {
+  test('Check for modulus', () => {
     const obj = {
       total: 9,
       next: 4,
