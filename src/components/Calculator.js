@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import calculate from "../logic/calculate";
+import calculate from '../logic/calculate';
 
 const UI = () => {
   const [state, setStat] = useState({
@@ -18,7 +18,7 @@ const UI = () => {
 
   return (
     <div className="calculator">
-      <h2 className="some-math">Let's Do Some Math!</h2>
+      <h2 className="some-math">Lets Do Some Math!</h2>
       <div className="calc">
         <div className="row1">
           <h2 className="result">
