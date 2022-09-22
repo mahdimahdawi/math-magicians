@@ -12,7 +12,7 @@
 
 ## Live Demo (if available)
 
-[Comming Soon...]
+[Link](https://glowing-tulumba-939de0.netlify.app/)
 
 
 ## Getting Started
