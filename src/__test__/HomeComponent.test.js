@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Home from '../components/home';
-
+/*eslint-disable */
 describe('Testing Home Component', () => {
   test('testing home', () => {
     render(<Home />);

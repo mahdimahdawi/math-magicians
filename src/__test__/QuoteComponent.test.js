@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Quote from '../components/quote';
-
+/*eslint-disable */
 describe('Testing Quote Component', () => {
   test('testing quote', () => {
     render(<Quote />);

@@ -12,7 +12,7 @@ describe('Test for Calculate', () => {
       next: null,
       operation: null,
       total: '15',
-      });
+    });
   });
   test('Check for Subtractions', () => {
     const obj = {

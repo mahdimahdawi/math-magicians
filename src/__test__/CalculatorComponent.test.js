@@ -1,6 +1,6 @@
 import { render, screen, fireEvent } from '@testing-library/react';
 import Calculator from '../components/Calculator';
-
+/*eslint-disable */
 describe('testing Calculator Component', () => {
   test('testing if Calculator Component rendered', () => {
     render(<Calculator />);

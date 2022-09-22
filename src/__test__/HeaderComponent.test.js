@@ -7,7 +7,7 @@ describe('Testing Header Component', () => {
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
 
     expect(screen.getByText('Home')).toMatchSnapshot();
@@ -19,7 +19,7 @@ describe('Testing Header Component', () => {
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
 
     fireEvent.click(screen.getByText('Home'));
@@ -39,7 +39,7 @@ describe('Testing Header Component', () => {
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
 
     fireEvent.click(screen.getByText('Calculator'));
@@ -59,7 +59,7 @@ describe('Testing Header Component', () => {
     render(
       <Router>
         <Header />
-      </Router>
+      </Router>,
     );
 
     fireEvent.click(screen.getByText('Quote'));

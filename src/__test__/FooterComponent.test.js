@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
 import Footer from '../components/footer';
-
+/*eslint-disable */
 describe('Testing Footer Component', () => {
   test('testing footer', () => {
     render(<Footer />);

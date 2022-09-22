@@ -18,7 +18,7 @@ describe('Test Math Simple Oprations', () => {
   });
   test('Check for Subtractions, 20 - 10 Eqaul 10', () => {
     expect(operate(20, 10, '-')).toMatch('10');
-  })
+  });
   test('Check for Modulas, 9 % 4 eqaul 1', () => {
     expect(operate(9, 4, '%')).toBe('1');
   });
