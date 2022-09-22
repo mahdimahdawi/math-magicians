@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Header Component Testing that all the links are present and rendered 1`] = `
+<a
+  aria-current="page"
+  class="menu-link active"
+  href="/"
+>
+  Home
+</a>
+`;
+
+exports[`Testing Header Component Testing that all the links are present and rendered 2`] = `
+<a
+  class="menu-link"
+  href="/calculator"
+>
+  Calculator
+</a>
+`;
+
+exports[`Testing Header Component Testing that all the links are present and rendered 3`] = `
+<a
+  class="menu-link"
+  href="/quote"
+>
+  Quote
+</a>
+`;
